@@ -1,0 +1,143 @@
+body {
+            
+    background-size: cover;
+    font-family: "New Roman", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin: 0px;
+}
+
+img {
+    width: 10px;
+}
+
+h2 {
+    color: #000000;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+.menu {
+/* height: 25px; */
+display: flex;
+justify-content: center;
+background-color: #92845d;
+width: 100%;
+}
+
+.mbut {
+background-color: #231c2c;
+/* border: darkred 1px solid; */
+height: 55px;
+display: flex;
+align-items: center;
+padding: 0 60px;
+}   
+
+.mbut>p>a {
+text-decoration: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
+color: #ffffff;
+opacity: 0.7;
+}
+
+.mbut>p>a:hover {
+opacity: 1;
+}
+
+.mbut:active {
+background-color: #ffffff;
+}
+
+.logo {
+max-width: 300px;
+max-height: 80px;
+}
+img {
+width: 50px;
+}
+.logoText {
+position: relative;
+top: -92px;
+left: 80px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 33px;
+color: #000000;
+}
+.footer {
+flex-shrink: 0;
+height: 100px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-top: 3px solid #b6b6b68c;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #686868;
+}
+p {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+a {
+color: #000000;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+color: #000000;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header {
+/* Стилі для верхнього колонтитулу */
+background-color: #ffffff;
+color: #000000;
+text-align: center;
+padding: 10px;
+}
+
+.main-content {
+display: flex;
+}
+
+.sidebar {
+/* Стилі для бокової колонки */
+background-color: #ffffff;
+width: 25%;
+color: #e5ab00;
+padding: 10px;
+}
+
+.content {
+/* Стилі для основного вмісту */
+flex-grow: 1;
+background-color: #fff;
+}
+
+.footer {
+/* Стилі для нижнього колонтитулу */
+
+flex-shrink: 0;
+height: 100px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-top: 3px solid #b6b6b68c;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #686868;
